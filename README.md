@@ -1,16 +1,17 @@
-# Chat Application
+# URL Shortener
 
 ## Project Description
-The Chat Application is a basic real-time messaging platform allowing users to communicate through a simple interface. It is built with WebSockets to enable instant message transmission between clients.
+The URL Shortener is a web application that allows users to create shortened URLs for long links. This application provides a simple interface to generate shortened URLs, making it easier to share and manage links.
 
 ## Features
-- **Real-Time Messaging**: Supports immediate message exchange across connected users.
-- **Basic User Interface**: Displays messages from all participants in a conversation window.
+- **URL Shortening**: Converts long URLs into shorter, unique links.
+- **Redirection**: Redirects users from the shortened link to the original URL.
+- **Basic Analytics**: Tracks the number of clicks on each shortened URL.
 
 ## Technologies Used
-- **Backend**: NestJS with WebSocket for real-time communication.
-- **Frontend**: HTML, CSS, JavaScript.
-- **Database**: No database is used in the current implementation; messages are not stored persistently.
+- **Backend**: NestJS for API handling and link generation.
+- **Database**: MongoDB, used as a key-value store to map shortened URLs to original URLs.
+- **Frontend**: HTML, CSS, JavaScript (for the user interface).
 
 ## Setup & Installation
 1. **Clone the repository**:
